@@ -1,0 +1,23 @@
+
+.nav-links {
+    list-style-type: none;
+    margin: 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-main img {
+    width: 70px;
+    height: 30px;
+  }
+
+  .navbar {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 2 px;
+  }
+
