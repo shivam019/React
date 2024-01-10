@@ -40,13 +40,17 @@ const Restaurants = () => {
           </tr>
         </thead>
         <tbody>
-          {restaurants.map(res => (
+         { restaurants.map( res => (
             <tr key={res.id}>
-              <td className="border px-4 py-2">{res.id}</td>
-              <td className="border px-4 py-2">{res.name}</td>
-              <td className="border px-4 py-2">{res.rating}</td>
+             <td> {res.name}</td>
+             <td> {res.rating}</td>
             </tr>
-          ))}
+          
+         ))}
+
+
+
+         
         </tbody>
       </table>
 
