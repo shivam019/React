@@ -21,9 +21,7 @@ const Dropdown = () => {
     'Lucknow': ['Town 3-1-1', 'Town 3-1-2', 'Town 3-1-3'],
   };
 
-  // Simulating data fetching with useEffect
   useEffect(() => {
-    // Simulate API response delay
     const delay = setTimeout(() => {
       const dummyData = [
         { id: 1, name: "KFC", rating: 4, State: "Maharashtra", City: "NGP", towns: "Town 1-1-1" },
@@ -34,7 +32,6 @@ const Dropdown = () => {
       setLoading(false);
     }, 1000);
 
-    // Cleanup function to clear the timeout on component unmount
     return () => clearTimeout(delay);
   }, []);
 
